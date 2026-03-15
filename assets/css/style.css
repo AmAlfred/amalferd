@@ -1796,8 +1796,28 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   article { min-height: 100%; }
 
+.timeline-text {
+  margin-left: 18px;
+  padding-left: 0;
+}
 
+.timeline-text li {
+  margin-bottom: 6px;
+  line-height: 1.6;
+}
 
+.timeline-item {
+  margin-bottom: 25px;
+}
+
+.timeline-text {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+.timeline-text li {
+  margin-bottom: 6px;
+}
   /**
    * MAIN
    */
